@@ -1,0 +1,45 @@
+body {
+	background-color: #ededed
+}
+
+.launch {
+	display: flex;
+    padding: 30px;
+    background-color: #333;
+    border: 2px solid #aaa;
+    box-shadow: 0px 0px 15px #aaa;
+    border-radius: 20px;
+    margin: auto;
+    width: fit-content
+}
+
+.buttons {
+	padding: 0px 10px
+}
+
+button {
+	width: 70px;
+	height: 70px;
+	border: outset 2px;
+	margin: 5px
+}
+.blue button {
+	background-color: #6af;
+	border-color: #6af
+}
+.red button {
+	background-color: #f55;
+	border-color: #f55;
+	display: block;
+	margin: 10px;
+	margin-top: 5px;
+	border-radius: 50px;
+}
+.orange button {
+	background-color: #f84;
+	border-color: #f84;
+	display: block;
+	margin: 10px;
+	border-radius: 80px 0px;
+	margin-top: 5px
+}
